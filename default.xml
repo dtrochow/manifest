@@ -7,6 +7,6 @@
   <project name="LED_Cube_RGB" path="cube"/>
   <project name="StepperMotor_lib" path="stepper"/>
   
-  <linkfile src="cube/led_cube" dest="stepper/cube"/>
+  <copyfile src="cube/led_cube" dest="stepper/cube"/>
   
  </manifest>

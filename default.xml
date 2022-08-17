@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetach="https://github.com/dtrochow" name="origin"/>
+  
+  <default remote="origin" sync-j="4" revision="main"/>
+  
+  <project name="LED_Cube_RGB" path="cube"/>
+  <project name="StepperMotor_lib" path="stepper"/>
+  
+ </manifest>
